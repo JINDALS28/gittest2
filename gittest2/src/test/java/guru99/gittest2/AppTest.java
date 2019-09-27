@@ -30,6 +30,7 @@ public class AppTest {
 		System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
 		driver.findElement(By.xpath("//a[@href=\"/portal/UI/Logout\"]")).click();
 		System.out.println("Logout Successfully");
+		System.out.println("Done");
 	}
 
 	@AfterTest
